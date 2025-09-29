@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: 'EB Garamond', serif; /* Elegant serif font for a medieval feel */
+    background-color: #f4f1e0; /* Parchment-like background */
+    color: #4b2e2e; /* Dark brown text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #6b4226; /* Rich brown for header */
+    color: #f4f1e0; /* Light text */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #4b2e2e;
+}
+
+header h1 {
+    font-family: 'MedievalSharp', cursive; /* Decorative medieval font */
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f4f1e0;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Poem Section */
+.poem-container {
+    background-color: #fff8dc; /* Light parchment color */
+    border: 2px solid #4b2e2e; /* Decorative border */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    text-align: justify;
+}
+
+.poem-container p {
+    margin-bottom: 20px;
+}
+
+.poem-container p:last-child {
+    margin-bottom: 0;
+}
+
+.poem-container br {
+    line-height: 2; /* Adds spacing between lines for better readability */
+}
+
+/* Section Titles */
+h2 {
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    text-shadow: 2px 2px #4b2e2e; /* Subtle shadow for medieval feel */
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+    background-color: #fff8dc;
+    border: 2px solid #4b2e2e;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+footer {
+    background-color: #6b4226;
+    color: #f4f1e0;
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid #4b2e2e;
+}
+
+footer section {
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 90%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .poem-container {
+        padding: 15px;
+    }
+}

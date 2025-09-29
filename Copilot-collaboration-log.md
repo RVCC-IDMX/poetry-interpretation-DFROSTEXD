@@ -2,7 +2,7 @@
 
 ## Quick Summary
 
-- Which mode did you use most? [Ask/Agent/Edit]
+- Which mode did you use most? [Ask]
 - Most helpful Copilot moment: [One sentence]
 
 ## Key Interactions (3-5 entries)
@@ -15,15 +15,15 @@
 
 ### Creating HTML structure
 
-**Mode:** Agent
-**Why this mode:** Ready to build after planning
-**Helpful:** Generated semantic HTML matching my poem
+**Mode:** Ask
+**Why this mode:** Really good at getting the feel of the website down
+**Helpful:** Generated the base code for the website
 
 ### Fixing CSS colors
 
-**Mode:** Edit
-**Why this mode:** Needed to change existing styles
-**Helpful:** Updated all color values to improve contrast
+**Mode:** Ask
+**Why this mode:** Gave me good colors for my website
+**Helpful:** Provided me with the appropriate colors for my website
 
 ## What I Learned
 
